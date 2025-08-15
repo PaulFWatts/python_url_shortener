@@ -3,5 +3,11 @@ name = "python-url-shortener"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.11"
-dependencies = []
+requires-python = "==3.10.18"
+dependencies = [
+    "fastapi==0.78.0",
+    "python-dotenv==0.20.0",
+    "sqlalchemy==1.4.37",
+    "uvicorn==0.17.6",
+    "validators==0.20.0",
+]
